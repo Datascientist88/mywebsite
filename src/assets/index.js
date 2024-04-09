@@ -7,12 +7,12 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import AI from "./aii.gif";
-import AI2 from "./aii.gif";
+import AI2 from "./AI.png";
 import ML from "./Ml.png";
 import assistant from "./assistant.png";
 import dataAnalyst from "./data-analyst.png";
 import bigData from "./big-data.png";
-import tf from "./tf2.gif";
+import tf from "./tensorflow.gif";
 import steelcad from "./steelcad.jpg";
 import abha from "./abhalogo.png";
 import samir from "./samir.jpg"
