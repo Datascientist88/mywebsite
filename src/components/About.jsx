@@ -23,7 +23,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           alt='web-development'
-          className='w-45 h-45 object-fit'
+          className='w-16 h-16 object-contain'
         />
 
         <h3 className='text-white text-[20px] font-bold text-center'>
