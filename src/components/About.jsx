@@ -7,7 +7,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[200px] w-full'>
+  <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[18px] shadow-card'
@@ -43,7 +43,7 @@ function About() {
       <h2 className={styles.sectionHeadText}>Overview.</h2>
     </motion.div>
     <motion.p variants={fadeIn("","",0.1,1)}
-    className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+    className="mt-4 text-secondary text-[16px] max-w-3xl leading-[25px]">
     Experienced data science professional with over 5 years of expertise in artificial intelligence, machine learning, and data analytics.
     Skilled in building AI-based applications and systems to transform businesses, leveraging Python, JavaScript, Julia, Dart, and Scala programming languages.
     Proficient in TensorFlow and PyTorch frameworks for developing and training robust neural networks, Certified Artificial Intelligence Scientist. 
