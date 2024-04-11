@@ -43,7 +43,7 @@ function About() {
       <h2 className={styles.sectionHeadText}>Overview.</h2>
     </motion.div>
     <motion.p variants={fadeIn("","",0.1,1)}
-    className="mt-4 text-secondary text-[16px] max-w-3xl leading-[25px]">
+    className="mt-5 text-secondary text-[16px] max-w-3xl leading-[25px]">
     Experienced data science professional with over 5 years of expertise in artificial intelligence, machine learning, and data analytics.
     Skilled in building AI-based applications and systems to transform businesses, leveraging Python, JavaScript, Julia, Dart, and Scala programming languages.
     Proficient in TensorFlow and PyTorch frameworks for developing and training robust neural networks, Certified Artificial Intelligence Scientist. 
@@ -51,7 +51,7 @@ function About() {
     Proven track record of driving innovation and delivering actionable insights to optimize business strategies. 
     Committed to continuous learning and staying abreast of emerging technologies in the dynamic field of data science.
     </motion.p>
-    <div className='mt-15 flex flex-wrap gap-10'>
+    <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
