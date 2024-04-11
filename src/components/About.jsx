@@ -51,7 +51,7 @@ function About() {
     Proven track record of driving innovation and delivering actionable insights to optimize business strategies. 
     Committed to continuous learning and staying abreast of emerging technologies in the dynamic field of data science.
     </motion.p>
-    <div className='mt-20 flex flex-wrap gap-10'>
+    <div className='mt-15 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
