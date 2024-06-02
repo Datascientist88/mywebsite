@@ -39,6 +39,7 @@ import {
     bi,
     assistant,
     rag,
+    vet
   } from "../assets";
   
   export const navLinks = [
@@ -259,6 +260,35 @@ import {
       ],
       image: assistant,
       source_code_link: "https://doctor-ai-assistant.onrender.com/",
+    },
+    {
+      name: "Veterinary AI Assistant",
+      description:
+        "This is part 2: of Generative AI projects , This is A veterinary doctor with wide range of capabilities , I developed it using Vector embeddings of 25 Veterinary Handbooks its still subject to enhancements , Future development , using retrieval augmented Generation or (RAG) please feel free to visit the link and give me your feedback.possibility of applying RAG to develop conversational AI apps that retrieve knowledge from knowledge base to prevent inaccuracies assocaited with LLMs ",
+      tags: [
+        {
+          name: "RAG",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "LLMs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Qdrant",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: vet,
+      source_code_link: "https://vetai-assistant.onrender.com/",
     },
     {
       name: "Chat with  Your PDF",
