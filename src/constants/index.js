@@ -1,6 +1,8 @@
 import {
     mobile,
     backend,
+    FirstOne,
+    mySecond,
     creator,
     web,
     javascript,
@@ -233,7 +235,7 @@ import {
   
   const projects = [
     {
-      name: "Doctor AI assistant",
+      name: "Medical AI Assistant",
       description:
         "Its an application I developed by applying Retrieval Augmented Generation (RAG) where I have converted 35 medical handbooks into text embedding and Store in vector store known as Qdrant , The Doctor AI Assistant is an advanced artificial intelligence tool designed to aid physicians in diagnosing diseases swiftly and accurately. It provides comprehensive support by addressing a wide array of queries, including those related to ICD10 codes, diagnoses, symptoms, and differential diagnoses.",
       tags: [
@@ -258,16 +260,16 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: assistant,
-      source_code_link: "https://doctor-ai-assistant.onrender.com/",
+      image: FirstOne,
+      source_code_link: "https://medical-ai-assistant-based-on-rag.onrender.com/",
     },
     {
-      name: "Veterinary AI Assistant",
+      name: "US Medical License Exam (USMLE) Assistant",
       description:
-        "This is part 2: of Generative AI projects , This is A veterinary doctor with wide range of capabilities , I developed it using Vector embeddings of 25 Veterinary Handbooks its still subject to enhancements , Future development , using retrieval augmented Generation or (RAG) please feel free to visit the link and give me your feedback.possibility of applying RAG to develop conversational AI apps that retrieve knowledge from knowledge base to prevent inaccuracies assocaited with LLMs ",
+        "The US Medical License Exam (USMLE) Assistant is an AI-driven educational platform designed to transform exam preparation for medical students and professionals. Built using **Retrieval Augmented Generation (RAG)**, it provides personalized, evidence-based learning by dynamically retrieving and generating high-yield, exam-relevant content. Trained on resources like **First Aid for the USMLE Step 1 (34th Edition)** and other trusted materials, the assistant delivers detailed explanations, mnemonics, and clinical reasoning guidance tailored to the USMLE syllabus. The **React.js** frontend, styled with a modern **Glassmorphism** design, ensures a sleek and user-friendly interface, while the **Python Flask** backend integrates **LangChain**, **OpenAI embeddings**, and multilingual support powered by **ElevenLabs** for global accessibility. By offering interactive coaching, multilingual audio explanations, and performance feedback, the USMLE Assistant redefines how medical professionals prepare for their licensing exams, combining the latest AI advancements with a focus on inclusivity and educational excellence. ",
       tags: [
         {
-          name: "RAG",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
@@ -287,8 +289,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: vet,
-      source_code_link: "https://vetai-assistant.onrender.com/",
+      image:mySecond,
+      source_code_link: "https://usmle-conversationalassistant.onrender.com",
     },
     {
       name: "Chat with  Your PDF",
@@ -318,5 +320,22 @@ import {
     },
    
   ];
+  const imageProjects = [
+    {
+      id: 1,
+      image:FirstOne,
+      url: "https://medical-ai-assistant-based-on-rag.onrender.com/",
+      title: "Medical AI Assistant With RAG",
+      description: "",
+    },
+    {
+      id: 2,
+      image: mySecond,
+      url: "https://usmle-conversationalassistant.onrender.com/",
+      title: "USMLE Exam Assistant",
+      description: "",
+    },
+   
+  ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects ,imageProjects};

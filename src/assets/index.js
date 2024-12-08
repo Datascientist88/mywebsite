@@ -43,12 +43,15 @@ import vet from "./tech/vet.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import FirstOne from "./projectone.png"
+import mySecond from "./projecttwo.png"
 export {
   logo,
   backend,
   creator,
   mobile,
+  FirstOne,
+  mySecond,
   web,
   github,
   menu,
